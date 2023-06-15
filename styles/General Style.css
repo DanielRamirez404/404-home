@@ -240,6 +240,12 @@ nav {
   transition: all 0.15s;
 }
 
+@media screen and (max-height: 700px) {
+  .navigation-section ul li {
+    height: 45px;
+  }
+}
+
 .navigation-section ul li:hover {
   background-color: var(--secondary-color);
   cursor: pointer;
