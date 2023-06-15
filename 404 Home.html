@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <script src="/script/script.js"></script>
+    <link rel="stylesheet" href="/styles/General Style.css">
+    <link rel="icon" type="image/x-icon" href="/images/house-solid.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <title>404 &#124; Home &#128526;</title>
+  </head>
+  <body>
+    <header class="header-bar">
+      <ul class="header-list">
+        <li class="active-header"><a>404</a></li>
+        <li><a>Blog</a></li>
+        <li><a>About</a></li>
+        <li><a>Contact</a></li>
+        <li><a>Proyects</a></li>
+      </ul>
+    </header>
+    <section class="head-section">
+      <div class="black-background">
+        <h1 class="head-title">My Homepage</h1>
+        <p class="head-quote">"If you walk down the path that you believe is right, you cannot be wrong"</p> 
+      </div>
+    </section>
+    <div class="page-main">
+      <nav>
+        <div class="navigation-section">
+          <button onclick="closeNav()" id="nav-button">X</button>
+          <h3>Navigation</h3>
+          <ul id="nav-list">
+            <li><a href="#chapter-1"><p>404</p></a></li>
+            <li><a href="#chapter-2"><p>Soft Skills</p></a></li>
+            <li><a href="#chapter-3"><p>Coding Achivements</p></a></li>
+            <li><a href="#chapter-4"><p>Languages I Speak</p></a></li>
+            <li><a href="#chapter-5"><p>Academic Resume</p></a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="page-content">
+        <div class="page-section">
+          <h2 id="chapter-1">404</h2>
+          <p>Hello world! My name's Daniel, but online I usually go by 404. I think it's a cool nickname, since that's my lucky number. I'm a student who has a huge amount of curiosity and who likes to learn about lots of different stuff.</p>
+          <button class="primary-button" onclick="coolAlert()">Hey, that's cool!</button>
+          <button class="secondary-button" onclick="boringAlert()">That's, like, so boring, dude...</button>
+        </div>
+        <div class="page-section">
+          <h2 id="chapter-2">Soft Skills</h2>
+          <div class="soft-skills-content">
+            <div class="soft-skill-text">
+              <p>Soft skills are an important part of one's working efficiency. Some of the soft skills that I've come to develop throughout the years are the following ones. Have a look at them!</p>
+              <ul>
+                <li>Problem-solving</li>
+                <li>Flexibility</li>
+                <li>Teamwork</li>
+                <li>Leadership</li>
+                <li>Creativity</li>
+              </ul>
+            </div>
+            <img class="thinking-img" src="/images/thinking-man.jpg" alt="thinking-man">
+          </div>
+        </div>
+        <div class="page-section">
+          <h2 id="chapter-3">Coding Achivements</h2>
+          <div class="coding-content">
+            <p>It could be argued that C++ is my native programming language, since it's the first one I started learning with a more "formal" approach, back in 2022.</p>
+            <p>As you can probably notice, I got also enough experience in HTML and CSS to make this very webpage. I haven't included too many JavaScrpit features since I still need to get to know the language better, though.</p>
+            <img class="centered-img" src="/images/web-development.webp" alt="web-dev">
+            <p>I also had a little experience with both Java and JavaScrpit beforehand. Although not enough for me to be able to use them nowadays without constantly checking their syntax. Nonetheless, no matter which programming language you use, the logic remains pretty much the same.</p>
+            <p>As for my C++ knowledge, I keep on working in getting comfortable with OOP programming. It hasn't been that hard to grasp new concepts such as pointers, but I feel I need to keep on improving until I reach the moment where it becomes second nature to me. I'd like to learn much more about both the standard library and data structures, since I feel it might prove to be useful at the end of the day.</p>
+            <img class="centered-img" src="/images/ISO_C++_Logo.svg.png" alt="cpp">
+            <p>Some of my personal C++ projects have been the following ones (Keep on mind that all of them run in the terminal, since I don't have experience either with C++ GUI programming):</p>
+            <ul>
+              <li>Tic-Tac-Toe Game (The user's able to interact using matrix coordinates)</li>
+              <li>Maze Game (The user's able to interact with the WASD keys)</li>
+              <li>Grade Calculator (The user information's saved in text files so it can be used after closing the program)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-section">
+          <h2 id="chapter-4">Languages I Got Knowledge Of</h2>
+          <div class="languages-section">
+            <button class="primary-button" id="visible-languages-button" onclick="changeVisibleLanguages()">See only languages I can use with ease</button>
+            <div class="language-grid" id="language-grid">
+              <div class="language-section">
+                <div class="upper-language-part">
+                  <img class="background-img" src="/images/new-york-city.jpg" alt="eng-background">
+                  <img class="flag-img" src="/images/us-flag.png" alt="us-flag">
+                  <div class="language-level" id="en-level">C1</div>
+                </div>
+                <div class="lower-language-part">
+                  <h3>English</h3>
+                  <h4>Description:</h4>
+                  <p>I guess there's not too much to say about it, since I've been writing this whole page in English. I feel almost as comfortable with it as with my native language.</p>
+                  <h4>Example: </h4>
+                  <p>I haven't been to any English speaking country, but I'm looking forward to it. In fact, I haven't been overseas at all...</p>
+                </div>
+              </div>
+              <div class="language-section">
+                <div class="upper-language-part">
+                  <img class="background-img" src="/images/barcelona.jpg" alt="es-background">
+                  <img class="flag-img" src="images/es-flag.png" alt="spain-flag">
+                  <div class="language-level" id="es-level">Native</div>
+                </div>
+                <div class="lower-language-part">
+                  <h3>Spanish</h3>
+                  <h4>Description:</h4>
+                  <p>Spanish is my native language, so it comes without saying that I can speak it fluently... It's helped me a great deal to learn other european languages, such as English and French.</p>
+                  <h4>Example: </h4>
+                  <p>Hay muchos dialectos del español, debido a la alta cantidad de países hispanos que existen. Sin embargo, el lado bueno es que todos son inteligibles entre sí.</p>
+                </div>
+              </div>
+              <div class="language-section">
+                <div class="upper-language-part">
+                  <img class="background-img" src="/images/paris.jpg" alt="fr-background">
+                  <img class="flag-img" src="/images/fr-flag.png" alt="france-flag">
+                  <div class="language-level" id="fr-level">B1</div>
+                </div>
+                <div class="lower-language-part">
+                  <h3>French</h3>
+                  <h4>Description:</h4>
+                  <p>After learning English, I decided to get started with a romance language, since it'd come from the same family as Spanish. Soon enough I'd choose French, since, in my humble point of view, it was the most challenging option. It's been pretty easy, though!</p>
+                  <h4>Example: </h4>
+                  <p>Grâce a avoir choisi le français comme troisième langue, je peux maintenant mieux comprendre aussi le fonctionnement de l'espagnol, et l'origine de plein de mots anglais !</p>
+                </div>
+              </div>
+              <div class="language-section" id="portuguese">
+                <div class="upper-language-part">
+                  <img class="background-img" src="/images/rio-de-janeiro.jpg" alt="br-background">
+                  <img class="flag-img" src="/images/br-flag.png" alt="br-flag">
+                </div>
+                <div class="lower-language-part">
+                  <h3>Portuguese</h3>
+                  <h4>Description:</h4>
+                  <p>It wasn't until I had the need to learn it that I decided to do so. Back then, in an widely-known online game called Clash of Clans, I was invited to a Brazilian clan by a friend of mine. But after we stop playing, I haven't really got back to Portuguese.</p>
+                  <h4>Example: </h4>
+                  <p>Não prático muito o português, mais é uma língua muito fácil para mim, porque posso falar espanhol. Gostaria de aprender melhor outras línguas antes do português.</p>
+                </div>
+              </div>
+              <div class="language-section" id="japanese">
+                <div class="upper-language-part">
+                  <img class="background-img" src="/images/tokyo.jpg" alt="jp-background">
+                  <img class="flag-img" src="/images/jp-flag.png" alt="jp-flag">
+                </div>
+                <div class="lower-language-part">
+                  <h3>Japanese</h3>
+                  <h4>Description:</h4>
+                  <p>Japanese is so much fun for me. It's one of the hardest major languages to learn, and it's so different to what we (speakers of european languages) are used to. Even so, it remains one of the most entertaining ones to learn, since Japan is a really big "soft power" player in the world. Japanese videogames, movies, series, comics, songs, novels... are an important part of our pop-culture and heavily influence the entire internet nowadays.</p>
+                  <h4>Example: </h4>
+                  <p class="japanese-text">日本語で話すのは、本当に難しくて聞く時には、あまり分からないけど、アニメを見れてマンガを読めるだから、大丈夫はずがあるんだよね！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 id="chapter-5">Academic Resume</h2>
+        <p>Currently, I'm a college student. The major I chose is the equivalent to Computer Science & Engineering in English. It'd be translated more literally as "Informatics Engineering", though. There aren't really too many academic achivements I can talk about. But here's a list with the most important things to take into account.</p>
+        <ul>
+          <li>I've finished two of ten semesters in Computer Science & Engineering.</li>
+          <li>I graduated from highschool with remarkable grades.</li>
+          <li>I've participated in several extracurricular activities, such as MUNs, where students prove themselves capables of negotiating, working together, solving problems and giving speeches eloquently.</li>
+          <li>I'm constantly self-studying different subjects I'm interested into.</li>
+        </ul>
+        <img class="student-img" src="/images/student.jpg" alt="student">
+      </div>
+      <div class="vertical-bar">
+        <div class="vertical-content">
+          <h3>Summary</h3>
+          <img src="/images/profile-pic.jpg" alt="404-pic">
+          <p class="pic-description">A generic cat's profile picture</p>
+          <h4>Remarkable Goals</h4>
+          <ul>
+            <li>I've finished two of ten semesters in Computer Science & Engineering</li>
+            <li>I can code with C++</li>
+            <li>I got knowledge of HTML and CSS</li>
+            <li>I can resolve logic, math and physics problems with ease</li>
+            <li>I can speak up to three languages</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div>
+        <p class="footer-title">Published and Modified Dates:</p>
+        <p>First Published: June 15th, 2023</p>
+        <p>Last Modified: June 15th, 2023</p>
+      </div>
+      <div>
+        <p class="footer-title">Copyright &#169;</p>
+        <p>Text is available under the Creative Commons Attribution-ShareAlike License 4.0</p>
+        <p>Code is available under the terms of the XYZ license</p>
+        <p>Images are from both Pixabay and Wikipedia, so their use is regulated by them</p>
+      </div>
+    </div>
+  </body>
+</html>
